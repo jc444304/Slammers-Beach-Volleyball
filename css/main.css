@@ -41,6 +41,14 @@ a
 a:hover
 {
     color: #0066FF;
+    text-decoration: underline;
+}
+
+.ladder_table
+{
+    width: 100%;
+    border: solid 1px #AAAAAA;
+    border-collapse: collapse;
 }
 
 .content
