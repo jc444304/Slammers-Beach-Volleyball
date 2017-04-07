@@ -65,21 +65,36 @@ a:hover
     margin-top: 0;
 }
 
+.side
+{
+    margin-left: 0;
+}
+
 .nav
 {
     color: #111111;
 }
 
-.nav, .foot
+.nav
 {
-    background-color: rgba(220,220,220,0.9);
+    background-color: rgba(255,255,255,0.9);
     font-weight: bolder;
+}
+
+.foot
+{
+    background-color: rgba(120,120,120,0.5);
 }
 
 h1, h2, h3
 {
     font-family: SlammerHeading;
     font-weight: normal;
+}
+
+h2, h3
+{
+    font-weight: bold;
 }
 
 h1
