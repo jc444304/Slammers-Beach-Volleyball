@@ -1,0 +1,14 @@
+
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+.content
+{
+    width: 1024px;
+    height: 1200px;
+    vertical-align: top;
+    background-image: url("../img/background.jpg") ;
+}
