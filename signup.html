@@ -1,5 +1,4 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿<html lang="en">
 <head>
     <meta charset="UTF-8">
     <link href="css/main.css" rel="stylesheet" type="text/css">
@@ -25,17 +24,44 @@
                 <td>
                     <div class="box">
                         <h1>Sign-Up</h1>
-                        <form method="POST" action="signup_notice.html">
-
-                        </form>
-                            <p>We would like an online sign-up form so people can register their team on the site.
-                        Data we need would be:
-                        •	Contact person name
-                        •	Contact phone number
-                        •	Contact email address
-                        •	Competition day (choose Monday – Saturday)
-                        •	Competition time (choose afternoon or evening)
-                        •	Tick-box for whether they have read and agree with our playing guidelines (below)
+                        <div class="box" style="background-color: rgba(255,128,0,0.2)">
+                            <form method="POST" action="signup_notice.html">
+                                <fieldset>
+                                    <legend>Name:</legend>
+                                    <p><input type="text" name="signup_name" value="My Full Name" /></p>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Phone:</legend>
+                                    <p><input type="text" name="signup_phone" value="" /></p>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Email:</legend>
+                                    <p><input type="text" name="signup_email" value="" /></p>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Competition Day:</legend>
+                                    <p><select name="signup_comp_day">
+                                        <option value="0">Monday</option>
+                                        <option value="1">Tuesday</option>
+                                        <option value="2">Wednesday</option>
+                                        <option value="3">Thursday</option>
+                                        <option value="4">Friday</option>
+                                        <option value="5">Saturday</option>
+                                        <option value="6" disabled>Sunday (Unavailable)</option>
+                                    </select></p>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Competition Time:</legend>
+                                    <p><input name="signup_time" value="0" checked type="radio" /> Afternoon</p>
+                                    <p><input name="signup_time" value="1" type="radio" /> Evening</p>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Submit:</legend>
+                                    <p><input name="signup_submit" type="checkbox" /> I agree with the <a href="guidelines.html">Guidelines</a>.</p>
+                                    <p><button type="submit">Submit</button></p>
+                                </fieldset>
+                            </form>
+                        </div>
                     </div>
                 </td>
                 <td width="300">

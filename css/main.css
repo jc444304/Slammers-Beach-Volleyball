@@ -22,10 +22,27 @@ img
     margin: 0 auto;
 }
 
-body, p, li, a
+body, p, li, a, input, button, textarea, legend
 {
     font-family: Calibri, Tahoma, Verdana;
     color: #333333;
+}
+
+fieldset
+{
+    border: solid 1px #003399;
+}
+
+legend
+{
+    font-weight: bold;
+    color: #003399;
+}
+
+form
+{
+    padding:0;
+    margin:0;
 }
 
 a, h1, h2, h3
