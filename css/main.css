@@ -5,10 +5,94 @@ body
     margin: 0;
 }
 
+@font-face {
+    font-family: SlammerHeading;
+    src: url("octin vintage b rg.ttf");
+}
+
+img
+{
+    border:0;
+}
+
+.main
+{
+    alignment: center;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+body, p, li, a
+{
+    font-family: Calibri, Tahoma, Verdana;
+    color: #333333;
+}
+
+a, h1, h2, h3
+{
+    color: #003399;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #0066FF;
+}
+
 .content
 {
+    text-align: left;
+    padding:0;
+    margin:0;
     width: 1024px;
     height: 1200px;
     vertical-align: top;
-    background-image: url("../img/background.jpg") ;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+}
+
+.box
+{
+    background-color: rgba(250,250,250,0.7);
+    border: solid 1px #666666;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 0;
+}
+
+.nav
+{
+    color: #111111;
+}
+
+.nav, .foot
+{
+    background-color: rgba(220,220,220,0.9);
+    font-weight: bolder;
+}
+
+h1, h2, h3
+{
+    font-family: SlammerHeading;
+    font-weight: normal;
+}
+
+h1
+{
+    font-size: 58px;
+}
+
+h2
+{
+    font-size: 38px;
+}
+
+h3
+{
+    font-size: 18px;
 }
